@@ -69,7 +69,7 @@ const menu = [
     category: "MainCourses",
     price: 0,
     img: "./images/item-9.jpeg",
-    desc: `sA fusion of flavors that's as unexpected as an impromptu karaoke session at the party.
+    desc: `A fusion of flavors that's as unexpected as an impromptu karaoke session at the party.
     `,
   },
   {
