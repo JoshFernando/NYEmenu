@@ -287,7 +287,10 @@ body.dark-theme .fas.fa-moon {
   .menu-item {
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
-    max-width: 40rem;
+	  max-width: 100%;
+	  right: 0;
+	  bottom: auto;
+	  top: 10px;
   }
   .photo {
     height: 175px;
