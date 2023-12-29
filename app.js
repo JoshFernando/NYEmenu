@@ -75,7 +75,7 @@ const menu = [
   {
     id: 10,
     title: "Pandesal",
-    category: "Breads",
+    category: "Sides",
     price: 0,
     img: "./images/item-10.jpeg",
     desc: `The humble superstar of every Filipino breakfast. Like your Tita's backhanded compliments – simple but impactful.`,
@@ -83,7 +83,7 @@ const menu = [
   {
     id: 11,
     title: "Chicken Salad Sandwhich",
-    category: "Breads",
+    category: "Sides",
     price: 0,
     img: "./images/item-11.jpeg",
     desc: `It's like the chicken had a spa day, came out refreshed, and decided to be a sandwich.!`,
@@ -176,7 +176,49 @@ const menu = [
     img: "./images/item-22.png",
     desc: `The comforting end to a big meal, like your Lola's stories by the fireplace. It's nostalgia in a cup.`,
   },
+  {
+    id: 23,
+    title: "Rotisserie Chicken",
+    category: "MainCourses",
+    price: 0,
+    img: "./images/item-23.png",
+    desc: `This chicken’s been rotating more than Drake's playlist in a Raptors locker room. It's like a Scarborough block party on a plate – everybody wants a piece.`,
+  },
+  {
+    id: 24,
+    title: "Fruits",
+    category: "Desserts",
+    price: 0,
+    img: "./images/item-24.png",
+    desc: `A fruit lineup as diverse as the TTC on a Monday morning. You’ve got your sweet, your tangy, and that one mystery fruit that’s like the guy on the streetcar who wears shorts in -10°C weather.`,
+  },
+  {
+    id: 25,
+    title: "Steamed Rice",
+    category: "Sides",
+    price: 0,
+    img: "./images/item-25.png",
+    desc: `The unsung hero, like the last Timbit in the box – always there for you. It’s like saying 'Eh' after every sentence, a Toronto staple that no Filipino feast can do without.`,
+  },
+  {
+    id: 26,
+    title: "Chocolate Balls",
+    category: "Desserts",
+    price: 0,
+    img: "./images/item-26.png",
+    desc: `These treats are like finding a free parking spot in downtown T.O. – rare and incredibly satisfying. They're the ‘sneaky deke’ of desserts, scoring big on flavor when you least expect it.`,
+  },
+  {
+    id: 22,
+    title: "Brazo de Mercedes",
+    category: "Desserts",
+    price: 0,
+    img: "./images/item-27.png",
+    desc: `As dramatic and sweet as a telenovela marathon during a Toronto snowstorm. It’s like your Tito’s karaoke performance – starts soft, ends with a standing ovation.`,
+  },
 ];
+
+
 
 const sectionCenter = document.querySelector(".section-center");
 const container = document.querySelector(".btn-container");
